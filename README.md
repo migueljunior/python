@@ -418,3 +418,31 @@ Tipo de dato Conjunto, esta relacionado con la teoria de conjuntos, propiedades 
 - No permite duplicados.
 
 ### Modificando conjuntos (Sets)
+Existe maneras de realizar operaciones con el conjunto.
+
+### Operaciones con Conjuntos
+Se pueden realizar operaciones con los conjuntos siempre y cuando se sigan las reglas de los conjuntos.
+- Union.
+- Interseccion.
+- Diferencia.
+- Diferencia Simetrica
+
+### List Comprehension
+Se trata de generar una lista, la sintaxis es la siguiente:
+```
+[element for element in iterable]
+```
+Donde:
+- element es el elemento
+- restante es el ciclo donde se extraen elementos de cualquier iterable
+
+Se le puede agregar una condicion para agregar a la lista:
+```
+[element for element in iterable if confition]
+```
+Ejemplo:
+```
+[i*2 for i in range(1, 101) if i % 2 == 0]
+```
+
+### Dictionary Comprehension
