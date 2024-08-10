@@ -1,2 +1,2 @@
-# python
-Repository with my notes aboput Python
+# Notes of Python
+Repository with my notes about Python
