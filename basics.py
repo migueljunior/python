@@ -28,3 +28,25 @@ print(5 * mode_1)
 # Count the characters
 print(len(mode_3))
 print(len(mode_1))
+
+# Integer type
+x = 10
+print(x)
+print(type(x))
+
+# Float type
+y = 5.6539
+print(y)
+print(type(y))
+z = 1.54e7
+print(z)
+a = 34.6e-6
+print(a)
+
+# Boolean type
+is_true = True
+print(is_true)
+print(type(is_true))
+is_false = False
+print(is_false)
+print(type(is_false))
