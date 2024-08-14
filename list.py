@@ -55,3 +55,32 @@ del numbers[1:2]
 print(numbers)
 # Delete complete list
 del numbers
+
+# To copy the information from any list into another list
+a = [1,2,3,4,5]
+b = a
+print(a)
+print(b)
+del a[0]
+print(a)
+print(b)
+
+# This is showing the space in memory
+print(id(a))
+print(id(b))
+
+# We need use slice to copy only the information
+print('Using slice method:')
+c = a[:]
+print('List a:',a)
+print('List b:',b)
+print('List c:',c)
+print('Deleting position 1 of list a')
+del a[1]
+print('List a:',a)
+print('List b:',b)
+print('List c:',c)
+print('Printing space in memory:')
+print('Space list a:',id(a))
+print('Space list b:',id(b))
+print('Space list c:',id(c))
